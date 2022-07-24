@@ -8,7 +8,7 @@ Description
 
 #### - BERT
 - Pre-training of Deep Bidirectional Transformers for Language Understanding
-- Transformer encoder-based
+- Stack of Transformer encoder layers
 - Train: MLM, NSP methods
 - Details: https://arxiv.org/abs/1810.04805
 
