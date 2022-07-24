@@ -7,6 +7,9 @@ Description
 - Details: https://aclanthology.org/W18-4407.pdf
 
 #### - BERT
+- Pre-training of Deep Bidirectional Transformers for Language Understanding
+- Transformer encoder-based
+- Train: MLM, NSP methods
 - Details: https://arxiv.org/abs/1810.04805
 
 Contents
@@ -14,7 +17,7 @@ Contents
 
 #### - Aggression identification using BERT
 - Input: english text
-- BERT based aggression identification model
+- BERT-based aggression identification model
 - Validation throught confusion matrix
 
 Dataset
