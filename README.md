@@ -15,7 +15,7 @@ Description
 Contents
 =============
 
-#### - Aggression identification using BERT
+#### - [Aggression identification using BERT](https://github.com/qbxlvnf11/aggression-identification-in-text/blob/main/Aggression_identification_using_BERT.ipynb)
 - Input: english text
 - BERT-based aggression identification model
 - Validation throught confusion matrix
