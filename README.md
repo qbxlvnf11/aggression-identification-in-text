@@ -6,7 +6,7 @@ Description
 - Aggression identification by classifying follow three classes in text: Overtly Aggressive (OAG), Covertly Aggressive (CAG), and Non-aggressive (NAG)
 - Details: https://aclanthology.org/W18-4407.pdf
 
-#### - BERT
+#### - BERT (Bidirectional Encoder Representations from Transformers)
 - Pre-training of Deep Bidirectional Transformers for Language Understanding
 - Stack of Transformer encoder layers
 - Train: MLM, NSP methods
@@ -19,6 +19,11 @@ Contents
 - Input: english text
 - BERT-based aggression identification model
 - Validation throught confusion matrix
+- Docker env run command
+
+```
+docker run --gpus all -it --rm -p 8886:8886 -e GRANT_SUDO=yes --user root -v {source code path}:/workspace -w /workspace pytorch/pytorch bash -c "pip install jupyter && pip install pandas && pip install seaborn && pip install sklearn && apt-get update && apt-get install -y python3-opencv && pip install torchmetrics && pip install pytorch_pretrained_bert && pip install tensorflow && pip install opencv-python && pip install torch_snippets torch_summary && jupyter notebook --ip='0.0.0.0' --port=8886 --allow-root"
+```
 
 Dataset
 =============
